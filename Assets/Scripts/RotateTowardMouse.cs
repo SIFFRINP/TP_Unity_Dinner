@@ -16,14 +16,14 @@ public class RotateTowardMouse : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Récupère la position de la souris
+        //Rï¿½cupï¿½re la position de la souris
         Vector3 screenPos = Input.mousePosition;
-        //La profondeur du point par rapport à la camera est paramétré en Z
+        //La profondeur du point par rapport ï¿½ la camera est paramï¿½trï¿½ en Z
         screenPos.z = depth;
-        //Calcul le point de la souris à la profondeur donnée par rapport à la caméra.
+        //Calcul le point de la souris ï¿½ la profondeur donnï¿½e par rapport ï¿½ la camï¿½ra.
         Vector3 targetPosition = cam.ScreenToWorldPoint(screenPos);
 
-        //Regarde dans la direction du point calculé.
+        //Regarde dans la direction du point calculï¿½.
         transform.LookAt(targetPosition);
     }
 }

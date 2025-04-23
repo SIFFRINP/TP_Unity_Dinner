@@ -1,5 +1,7 @@
 ﻿# Dinner TP
 
+Groupe : Noémie Pernin, Klara Goucovitch, Paul Siffrin
+
 Le but de ce TP est de réaliser un petit jeu de lancer de légumes. Le joueur doit lancer les légumes dans les tasses pour marquer des points.
 
 ![alt text](DinnerGameplay.gif "Demo")
